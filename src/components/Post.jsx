@@ -4,7 +4,7 @@ import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox
 
 const Post = ({abbreviation, name, tcolor, subheader, imageUrl, desc}) => {
   return (
-    <Card sx={{margin:2}}>
+    <Card sx={{mt:2, mb:2}}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: tcolor }} aria-label="recipe">
