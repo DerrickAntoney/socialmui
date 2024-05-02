@@ -22,7 +22,7 @@ function App() {
         <Navbar/>
         <Stack direction='row' justifyContent='space-between' >
           <Sidebar setMode={setMode} mode={mode}/>
-          <Feed/>
+          <Feed setMode={setMode} mode={mode}/>
           <Rightbar/>
         </Stack>
         <Add/>

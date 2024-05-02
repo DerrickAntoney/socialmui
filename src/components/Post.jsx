@@ -2,7 +2,7 @@ import React from 'react'
 import { Favorite, FavoriteBorder, MoreVert, Share } from '@mui/icons-material'
 import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox, IconButton, Typography } from '@mui/material'
 
-const Post = () => {
+const Post = ({abbreviation, title, color, subheader, imageUrl, desc}) => {
   return (
     <Card sx={{margin:2}}>
       <CardHeader
